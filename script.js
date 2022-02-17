@@ -30,3 +30,7 @@ const getApi = async (url) => {
   author.textContent = data.contents.quotes[0].author;
 };
 getApi(url);
+
+console.log(
+  "Good day my dev friend that inspects this! This API may take awhile to load in, so stay patient! I should add a rotating loading spinner huh?? <--- TODO"
+);
